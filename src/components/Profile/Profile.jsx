@@ -20,26 +20,26 @@ export function Profile({
   likes,
 }) {
   return (
-    <ProfileBox className="profile">
-      <DescriptionBox className="description">
-        <Depiction src={avatar} alt={tagName} className="avatar" />
-        <NameSize className="name">{userName}</NameSize>
-        <TagSize className="tag">{tagName}</TagSize>
-        <TagSize className="location">{location}</TagSize>
+    <ProfileBox>
+      <DescriptionBox>
+        <Depiction src={avatar} alt={tagName} />
+        <NameSize>{userName}</NameSize>
+        <TagSize>{tagName}</TagSize>
+        <TagSize>{location}</TagSize>
       </DescriptionBox>
 
-      <Menu className="stats">
+      <Menu>
         <Item>
-          <span className="label">Followers</span>
-          <ItemSpan className="quantity">{followers}</ItemSpan>
+          <span>Followers</span>
+          <ItemSpan>{followers}</ItemSpan>
         </Item>
         <Item>
-          <span className="label">Views</span>
-          <ItemSpan className="quantity">{views}</ItemSpan>
+          <span>Views</span>
+          <ItemSpan>{views}</ItemSpan>
         </Item>
         <Item>
-          <span className="label">Likes</span>
-          <ItemSpan className="quantity">{likes}</ItemSpan>
+          <span>Likes</span>
+          <ItemSpan>{likes}</ItemSpan>
         </Item>
       </Menu>
     </ProfileBox>
