@@ -1,12 +1,11 @@
 import styled from '@emotion/styled';
 
 export const SectionBox = styled.section`
-display: block;
-margin: 0 auto;
-text-align: center;
-width: 20%;
-background-color: darkkhaki;
-}
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  width: 20%;
+  background-color: darkkhaki;
 `;
 
 export const Caption = styled.h2`
@@ -16,7 +15,7 @@ export const Caption = styled.h2`
   font-size: 16px;
   padding: 15px 0;
   margin-bottom: 0;
-  margin-top: 20px;
+  margin-top: 0;
 `;
 
 export const BoxMenu = styled.ul`
