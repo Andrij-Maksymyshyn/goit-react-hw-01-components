@@ -6,7 +6,7 @@ export function FriendList({ friends }) {
   return (
     <FriendsMenu>
       {friends.map(friend => (
-        <FriendListItem key={friend.id} friend={friend} className="item" />
+        <FriendListItem key={friend.id} friend={friend} />
       ))}
     </FriendsMenu>
   );

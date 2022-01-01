@@ -14,6 +14,7 @@ export const DescriptionBox = styled.div`
 export const Depiction = styled.img`
   width: 30%;
   border-radius: 100%;
+  background-color: chocolate;
 `;
 
 export const NameSize = styled.p`
