@@ -6,9 +6,12 @@ export const FriendItem = styled.li`
   align-items: center;
   padding: 15px 0;
   width: 200px;
-  margin-bottom: 20px;
   background-color: aliceblue;
   box-shadow: 0px 5px 5px darkslategrey;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
 `;
 
 export const FriendImg = styled.img`
