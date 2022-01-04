@@ -3,10 +3,10 @@ import { Statistics } from '../Statistics/Statistics';
 import { FriendList } from '../FriendList/FriendList';
 import { TransactionHistory } from '../TransactionHistory/TransactionHistory';
 import { Container } from './App.styled';
-import userInfo from '../../data/user_info.json';
-import statisticList from '../../data/data_statistics.json';
-import friendsCatalogue from '../../data/friends.json';
-import dataTransactions from '../../data/transactions.json';
+import userInfo from '../../dataFiles/user_info.json';
+import statisticList from '../../dataFiles/data_statistics.json';
+import friendsCatalogue from '../../dataFiles/friends.json';
+import dataTransactions from '../../dataFiles/transactions.json';
 
 const userData = userInfo;
 
