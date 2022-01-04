@@ -15,9 +15,7 @@ export function Profile({
   userName,
   tagName,
   location,
-  followers,
-  views,
-  likes,
+  stats: { followers, views, likes },
 }) {
   return (
     <ProfileBox>
@@ -51,7 +49,5 @@ Profile.propTypes = {
   tagName: PropTypes.string.isRequired,
   userName: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
-  followers: PropTypes.number.isRequired,
-  views: PropTypes.number.isRequired,
-  likes: PropTypes.number.isRequired,
+  stats: PropTypes.object.isRequired,
 };
